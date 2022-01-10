@@ -1,0 +1,83 @@
+body {
+    background-color: #a7eeee;
+    margin: 10rem;
+}
+
+
+form {
+    width: 30rem;
+    margin: 3rem auto;
+    background-color: #255;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px #4f5f7d
+
+}
+
+label {
+    margin-bottom: 0.5rem;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    height: 2rem;
+    letter-spacing: 2px;
+    display: block;
+    /* margin-bottom: 1rem; */
+    box-sizing: border-box;
+    border: 1px solid rgb(214, 209, 209);
+    border-radius: 4px;
+    color: rgb(31, 30, 30);
+    margin-right: 5px;
+
+}
+
+input:focus {
+    color: rgb(29, 3, 29);
+    background-color: rgb(247, 194, 247);
+    border: 2px solid rgb(29, 3, 29);
+}
+
+#box-count{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#charcount {
+    align-self: center;
+}
+
+.btn-align {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+button {
+    padding: 0.5rem 1.5rem;
+    /* display: block; */
+    margin: 1rem 0;
+    background-color: rgb(29, 3, 29);
+    color: white;
+    border: 1px solid rgb(29, 3, 29);
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+button:hover {
+    background-color: rgb(88, 22, 88);
+    border-color: rgb(88, 22, 88);
+}
+
+input.warning {
+    background-color: rgb(223, 121, 121);
+}
+#remaining-chars.warning {
+color:rgb(223, 73, 73);
+}
